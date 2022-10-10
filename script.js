@@ -21,7 +21,3 @@ function operate(operator, a, b) {
     if (operator === "/") return divide(a,b);
 }
 
-console.log(operate('+',6,2));
-console.log(operate('-',6,2));
-console.log(operate('*',6,2));
-console.log(operate('/',6,2));
