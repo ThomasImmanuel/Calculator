@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 330px;
+    gap: 30px;
+    margin: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#display{
+    border: solid;
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btnGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    height: 300px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#equals {
+    grid-row: 5;
+    grid-column: 3;
+
+}
+
+#clear {
+    grid-column: 3/5;
+}
+
+#add {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+#subtract {
+    grid-row: 3;
+    grid-column: 4;
+}
+
+#multiply {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+#divide {
+    grid-row: 5;
+    grid-column: 4;
+}
+
+#btn0 {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#delete1 {
+    grid-column: 1/3;
+}
+
+
+
+
